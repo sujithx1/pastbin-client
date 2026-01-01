@@ -71,3 +71,46 @@ export default defineConfig([
   },
 ])
 ```
+
+
+
+
+---
+
+# 🎨 Frontend README (`frontend/README.md`)
+
+```md
+# Pastebin Lite – Frontend
+
+A simple React + TypeScript UI for creating and viewing text pastes.
+
+Users can:
+- Create a paste
+- Set optional TTL and max views
+- Receive a shareable URL
+- View pastes via `/p/:id`
+
+---
+
+## 🚀 Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Axios
+- @tanstack/react-query
+- React Router DOM
+
+---
+
+## 📌 Features
+
+- Paste creation form
+- View paste page
+- Error handling for expired / missing pastes
+- Safe text rendering (no HTML execution)
+- API health check
+
+---
+
+
